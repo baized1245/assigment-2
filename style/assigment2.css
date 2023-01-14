@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+}
+/* section-1 Area */
+.section-1{
+    background-color: #FF900E1A;
+    padding: 15px;
+}
+.title-and-button{
+    display: flex;
+    justify-content: space-evenly;
+}
+.company-title{
+    font-weight: 900;
+    font-size: 30px;
+}
+.buttons{
+    padding-left: 500px;
+}
+.buttons,button{
+   margin-left: 30px;
+   border: 30px;
+   color: rgb(212, 131, 24);
+}
+.headline-and-photo{
+    text-align: center;
+}
+.description-header{
+    font-weight: 800;
+    font-size: 40px;
+    color: blueviolet;
+    margin-top: 70px;
+}
+.section1-description{
+    margin: 20px;
+    font-size: 20px;
+}
+.more-button{
+  font-size: 30px;
+  margin: 30px; 
+}
+/* -----section 2----- */
+.section2-contain{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.section2-photos{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin:0 200px;
+}
+.heading-and-describing{
+    margin: 200px 200px 0px 0px ;
+}
+.section2-title{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.s2-title-style-1{
+    color: darkmagenta;
+}
+.s2-title-style-2{
+   color: darkorange; 
+}
+.section2-description{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.section2-button{
+    font-weight: 700;
+    font-size: 20px;
+    border: 50px;
+    border-radius: 5px;
+    margin: 5px;
+}
+/* ----------
+---------section 3----- */
+.section3-contain{
+    display: flex;
+     margin-top: 70px;
+}
+.s3-title-and-description{
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+.s3-heading{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 8px;
+    color: darkred;
+}
+.s3-description{
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.s3fh-1{
+    margin: 0px 80px 15px 80px;
+    font-size: 25px;
+    font-weight: 600;
+    color: maroon;
+}
+.s3fd-1{
+    margin: 0px 80px 35px 80px; 
+    font-size: 20px;
+}
+.s3-img img{
+   margin-bottom: 0px;
+}
+.s3-nav-button{
+    text-align: center;
+}
+.section3-button{
+    font-weight: 900;
+    font-size: 30px;
+    border: 100px;
+    border-radius: 25px;
+    padding: 30px;
+}
+/* ---------------------------
+-------------section-4---------- */
+.s4-heading-and-title{
+    margin: 100px 0px 100px 150px;
+}
+.section4-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: darkred;
+}
+.section4-description{
+   font-size: 25px;
+}
+.s4-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.s4-icons img{
+    border: 100px;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: burlywood;
+}
+.icon-details{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.icon-details p{
+    font-size: 25px;
+    border: 50px;
+    border-radius: 5px;
+    padding: 30px;
+    color: darkmagenta; 
+}
+/* ---------------
+---------section-5-
+          ----------- */
+.s5-heading-and-description{
+    text-align: center;
+}
+.s5-heading-and-description h2{
+    font-weight: 800;
+    font-size: 35px;
+    color: darkred;
+    margin-bottom:18px ;
+}
+.s5-heading-and-description p{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.sponsers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+/* ------------
+--------extra section(6)-
+------------------------- */
+.extra-section{
+    text-align: center;
+}
+.extra-section h2{
+    font-weight: 900;
+    font-size: 35px;
+    color: darkred;
+    margin-bottom: 15px;
+}
+.extra-section p{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: brown;
+}
+.address{
+    background-color: darkkhaki;
+    margin: 10px 300px 50px 300px;
+}
+/* ------------------last stage-------
+------------------------------ */
+.footer p{
+ text-align: center;
+}
+.footer-point{
+    text-align: center;
+    margin: 5px 300px 100px 300px;
+    background-color: cornsilk;
+    border: 60px;
+    border-radius: 10px;
+    padding: 25px;
+}
